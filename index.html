@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>DZ6</title>
+</head>
+
+<body>
+    <main>
+        <div class="form-holder">
+            <form>
+                <div class="form-group">
+                    <div class="form-group-input">
+                        <label for="Fullname">Повне ім'я</label>
+                        <input required id="Fullname" type="text">
+                    </div>
+                    <div class="form-group-input">
+                        <label for="email">E-mail</label>
+                        <input required id="email" type="email">
+                    </div>
+                    <div class="form-group-input">
+                        <label for="Password">Пароль</label>
+                        <input required id="Password" type="password">
+                    </div>
+                    <div class="form-group-input">
+                        <label for="Password-confirm">Пароль ще раз</label>
+                        <input required id="Password-confirm" type="password">
+                    </div>
+                </div>
+                <div class="form-group-radio">
+                    <span>Стать</span>
+                    <div class="form-group-radio-select">
+                        <input type="radio" id="male" name="Sex" required>
+                        <label for="male">Чоловіча</label>
+                        <input type="radio" id="female" name="Sex" required>
+                        <label for="female">Жіноча</label>
+                    </div>
+                </div>
+                <div class="form-group-input">
+                    <label for="age">Вік</label>
+                    <div>
+                        <input required id="age" type="number">
+                    </div>
+                </div>
+                <div class="form-group-select">
+                    <label for="course">Курс</label>
+                    <div>
+                        <select required name="course" id="course">
+                            <option>-=Оберіть курс=-</option>
+                            <option value="HR-Generalist">HR Generalist в IT (new)</option>
+                            <option value="Busines-analyt">Бізнес-аналіз в IT</option>
+                            <option value="Qa-manual">QA Manual</option>
+                            <option value="Front-End">Front-End Розробка</option>
+                            <option value="Python">Python Розробка</option>
+                            <option value="Digital_Marketing">Digital Marketing</option>
+                            <option value="C#-Dev">C# Розробка</option>
+                            <option value="UI/UX">UI/UX дизайн з нуля</option>
+                            <option value="Project_Management">Project Management в IT</option>
+                            <option value="English_Club">Beetroot Academy English Club</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group-input">
+                    <label for="address">Повна адреса</label>
+                    <div class="form-group-input">
+                        <textarea required name="address" id="address"
+                            placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-group-check">
+                        <input required type="checkbox">
+                        <span> Я погоджуюсь з обробкою персональних даних</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-group-input"></div>
+                    <input type="reset" value="Очистити форму.">
+                    <input type="submit" value="Зареєструватися">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
